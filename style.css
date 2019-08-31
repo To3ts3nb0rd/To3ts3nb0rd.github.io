@@ -4,29 +4,77 @@ body {
   background-color: #a3d5d3;
 }
 
+p{
+}
+
+a{
+    color: darkolivegreen;
+    text-decoration: none;
+}
+
+i{
+    border: solid black;
+    border-width: 0px 3px 3px 0px;
+    display: inline-flex;
+    padding: 3px;
+}
+
+
+
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-rows: 100px 400px 400px 400px;
+    grid-row-gap: 20px;
+}
+
 .box{
   width: 100%;
-  height: 100%;
+  
   background-color: green;
 }
 
 .insides{
   width: 200px;
-  height:100%;
   margin:auto;
 }
-.carousel{
-  height: 200px;
+
+.rotate{
+  height: 400px;
   border-radius:70%;
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
 }
 
+.right{
+    transform:rotate(-45deg);
+}
+
+.left{
+    transform: rotate(135deg);
+}
+
+.footer{
+    margin-right:0px;
+    font-size: 0.6em;
+}
+
+
 
 
 #talk{
-  width: 200px;
+  width: 500px;
   padding: 10px 10px 10px 10px;
-  color: grey;
+  text-align: justify;
+  margin: auto;
+}
+
+#motivationtext{
+    font-family: 'OpenSans',sans-serif;
+
+}
+
+#backup{
+    font-size: 0.8em;
 }

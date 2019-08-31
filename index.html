@@ -5,20 +5,67 @@
 <title>Jori's One Pager</title>
 
 <link rel="stylesheet" type="text/css" href="./style.css" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+
 <script src="./js.js" ></script>
 
 </head>
 <body>
+  <div class="container">
+  <div id="menu">
+    <h2>MENU</h2>
+    <p>
+      <a href="#motivation">motivation</a>
+      <a href="#carousel">carousel</a>
+      <a href="#prereq">prerequisites</a>
+    </p>
+  </div>
+  <div id="motivation">
+    <h2>MOTIVATION</h2>
+    <p id="motivationtext">As a graduated philosopher, I want to learn a technical skill that will help me in the job market. Over the years I have been coming back to coding in my spare time, solving coding challenges on projecteuler. It is time to make a choice for my future and that is that I want to learn coding. 
 
-  <div class="box">
-    <div class="insides">  
-      <p id="talk"> The harrowing work by Egon Schiele, capturing the broken spirit of this hellish world.</p>
+        I am inspired by the framework of learning at F&C, where peer-learning, service to the non-profit community, and solidarity are core values. 
+        
+        This is important for me. I try to instantiate them in my life and I want to develop according to them.
+        
+        The peer learning is a style of learning that fits well with my learning. Both in my Bachelor at University College Utrecht, and in my Research Master Philosophy at the University of Amsterdam, I engaged in peer learning. 
+        In 2015 I joined The Study Road biking from Istanbul to Beijing. I was the only experienced travel cyclist, as I had made some smaller trips before. This knowledge of fixing bikes, and traveling I shared with the team where I got back 
+        
+        I want to learn in a diverse and inspiring environment. Where I can share my experiences, and more importantly, where I can learn from others. 
+        
+        The peer learning and the lack of fees seems to me to make it possible for us to develop our skills in an environment where uniformizing pressures of corporate culture are held at bay a little longer. I think this is important as creativity and solidarity might spring new ideas and energies that will drive us further and in directions yet unexplored.
+        
+        What I can bring to F&C is my experience in philosophy and economics, my stint in art school, extensive traveling and intercultural experience. I learn quickly and I can get stuck in problems. Others can help me keep perspective, help me pacing the work we are doing. 
+        
+        
+        
+        I am trying to lay down roots in London, and learning together with peers and moving into the network that Founders&Coders has is an opportunity to establish myself. To make friends, to learn a new skill, to find meaningful employment perhaps are things that I am looking forward to.</p>
+    <a id="backup" href="#menu">back up</a>
+  </div>
+  <div id="carousel" class="box">
+    <div id="talk">  
+      <p>I love to go to the museum and get inspired by modern art. I am inspired by the harrowing work by Egon Schiele, who captures the broken spirit of this hellish world in his drawings and paintings so strikingly. (Navigate the pictures with the arrow keys or press the arrows.)</p>
     </div>
     <div class="insides">
-    <img id="rotate" class="carousel" src="https://res.cloudinary.com/dqzqcuqf9/image/fetch/https://d2u3kfwd92fzu7.cloudfront.net/catalog/artwork/gallery/1805/Schiele_Nude_Boy__Self_Portrait_.jpg" alt="EgonSchiele" >
+      <i class="left" onclick="rotate(-1)"></i>
+      <img id="rotate" class="rotate" src="https://res.cloudinary.com/dqzqcuqf9/image/fetch/https://d2u3kfwd92fzu7.cloudfront.net/catalog/artwork/gallery/1805/Schiele_Nude_Boy__Self_Portrait_.jpg" alt="EgonSchiele" >
+      <i class="right" onclick="rotate(1)"></i>
     </div>
-      
+    <a id="backup" href="#menu">back up</a>  
   </div>
+
+  <div id="prereq">
+    <p><h2>PREREQUISITES</h2></p>
+    <p>
+      <a href="https://www.freecodecamp.org/jorijansen" target="_blank">FreeCodeCamp</a>
+      <a href="https://github.com/To3ts3nb0rd/To3ts3nb0rd.github.io" target="_blank">Github Pages</a>
+      <a href="https://www.codewars.com/users/JJansen122" target="_blank">CodeWars</a>
+    </p>
+    <p><a id="backup"  href="#menu">back up</a></p>
+  </div>
+
+  </div>
+  <div class="footer">made by jorijansen, 2019</div>
 </body>
 
 </html>
